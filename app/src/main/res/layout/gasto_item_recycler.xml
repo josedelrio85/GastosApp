@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <TextView
+        android:id="@+id/fecha_gasto"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/recycler_item_fecha" />
+
+    <TextView
+        android:id="@+id/entidad_gasto"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/recycler_item_entidad" />
+
+    <TextView
+        android:id="@+id/descripcion_gasto"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/recycler_item_descripcion" />
+
+    <TextView
+        android:id="@+id/activo_gasto"
+        android:layout_width="4dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/importe_gasto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/recycler_item_importe"
+        android:textAlignment="viewEnd"
+        android:paddingEnd="5dp"
+        />
+
+</LinearLayout>

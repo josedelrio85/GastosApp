@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowGastosMes"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/row_Fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:text="@string/recycler_item_fecha" />
+
+    <TextView
+        android:id="@+id/row_Entidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:text="@string/recycler_item_entidad" />
+
+    <TextView
+        android:id="@+id/row_Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/recycler_item_descripcion" />
+
+    <TextView
+        android:id="@+id/row_Importe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textAlignment="viewEnd"
+        android:text="@string/recycler_item_importe" />
+
+</TableRow>

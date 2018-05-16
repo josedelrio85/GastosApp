@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GastosApp</string>
+    <string name="btn_ListaGastos">Lista de Gastos</string>
+    <string name="btn_GastosMes">Gastos Mes</string>
+    <string name="recycler_item_fecha">Fecha</string>
+    <string name="recycler_item_entidad">Entidad</string>
+    <string name="recycler_item_descripcion">Descripción</string>
+    <string name="recycler_item_importe">Importe</string>
+    <string name="recycler_item_activo">Activo</string>
+    <string name="recycler_item_edit_gasto_button">Editar</string>
+    <string name="recycler_item_tipo">Tipo Movimiento</string>
+
+</resources>
